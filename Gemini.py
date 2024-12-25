@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyDtLYbM55KYT4SUrQ7kRQ5zltgk-Yxa3ak")
+genai.configure(api_key="your key")
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat()
 st.header("Gemini LLM Application")
